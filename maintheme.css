@@ -1,0 +1,109 @@
+/**
+ * @name Radium
+ * @description Blue rounded discord theme with a collection of other themes.
+ * @author hourfrozen
+ * @version 1.0.4
+ * @authorId 1027694820531118141
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+/* customize things here */
+:root {
+	--rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
+	--rs-medium-spacing: 0px; /* Gap between avatar and status for User popout | MUST end in px */
+	--rs-large-spacing: 0px; /* Gap between avatar and status for User profiles | MUST end in px */
+  
+	--rs-small-width: 4px; /* Thickness of status border for members list/dms | MUST end in px */
+	--rs-medium-width: 6px; /* Thickness of status border for User popout | MUST end in px */
+	--rs-large-width: 7px; /* Thickness of status border for User profile | MUST end in px */
+  
+	--rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  
+	--rs-online-color: var(--online-indicator);/* Colour for online status */
+	--rs-idle-color: var(--idle-indicator); /* Colour for idle status */
+	--rs-dnd-color: var(--dnd-indicator); /* Colour for dnd status */
+	--rs-offline-color: var(--offline-indicator); /* Colour for offline status */
+	--rs-streaming-color: var(--streaming-indicator); /* Colour for streaming status */
+	--rs-invisible-color: var(--offline-indicator); /* Colour for invisible status - Note: this will only show for your own invisibility */
+	--rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  
+	--rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+	/*Radial end*/
+
+	/*midnight Begin*/
+	/* font, change to 'gg sans' for default discord font*/
+	--font: 'figtree';
+
+	/* top left corner text */
+	--corner-text: 'Midnight theme, Radium flavored.';
+
+	/* color of status indicators and window controls */
+	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
+	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
+	--offline-indicator: hsl(0, 1%, 25%); /* change to #f13f43 for default red */
+	--idle-indicator: hsl(50, 73%, 39%); /* change to #f0b232 for default yellow */
+	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+
+	/* accent colors */
+	--accent-1: hsl(201, 100%, 50%); /* links */
+	--accent-2: hsl(190, 100%, 31%); /* general unread/mention elements */
+	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
+	--accent-4: hsl(190, 70%, 29%); /* accent buttons when hovered */
+	--accent-5: hsl(190, 67%, 15%); /* accent buttons when clicked */
+	--mention: hsla(198, 80%, 52%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+
+	/* text colors */
+	--text-0: white; /* text on colored elements */
+	--text-1: var(--text-2); /* other normally white text */
+	--text-2: hsl(197, 24%, 74%); /* headings and important text */
+	--text-3: hsl(220, 54%, 79%); /* normal text */
+	--text-4: hsl(222, 13%, 61%); /* icon buttons and channels */
+	--text-5: hsl(218, 13%, 47%); /* muted channels/chats and timestamps */
+
+	/* background and dark colors */
+	--bg-1: hsl(219, 18%, 25%); /* dark buttons when clicked */
+	--bg-2: hsl(221, 18%, 20%); /* dark buttons */
+	--bg-3: hsla(224, 95%, 15%, 0.794); /* spacing, secondary elements */
+	--bg-4: hsla(226, 30%, 28%, 0.713); /* main background color */
+	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(0, 0%, 51%, 0.1); /* messages when hovered */
+
+	/* amount of spacing and padding */
+	--spacing: 7px;
+
+	/* animations */
+	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+	--moon-spin-transition: 0.4s ease; /* moon icon spin */
+	--icon-spin-transition: 0.7s ease; /* round icon button spin (settings, emoji, etc.) */
+
+	/* corner roundness (border-radius) */
+	--roundness-xl: 24px; /* roundness of big panel outer corners */
+	--roundness-l: 22px; /* popout panels */
+	--roundness-m: 19px; /* smaller panels, images, embeds */
+	--roundness-s: 17px; /* members, settings inputs */
+	--roundness-xs: 15px; /* channels, buttons */
+	--roundness-xxs: 10px; /* searchbar, small elements */
+
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon */
+	--moon-icon: block; /* moon icon */
+	--moon-icon-url: url('https://cdn.discordapp.com/attachments/1239757171152130129/1263272057517506662/b5X3uLi.webp?ex=6699a148&is=66984fc8&hm=17d7c019e79d1b07364a67dad365c74ef053e623ab3bf7659c1c2288cba2e510&'); /* custom icon url */
+	--moon-icon-size: 32px;
+
+	/* filter uncolorable elements to fit theme */
+	/* (just set to none, they're too much work to configure) */
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
+	/*midnight End*/
+}

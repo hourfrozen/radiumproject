@@ -397,11 +397,6 @@ svg[fill='#593695'] {
 .artwork_bdd070 /* filter login image */ {
 	filter: var(--login-bg-filter);
 }
-/* test */
-.info_c5a741 .line_c5a741:last-child:after {
-	content: 'Test';
-	display: block;
-}
 
 /* fix weird message bar padding */
 .clipContainer_b11c5e {

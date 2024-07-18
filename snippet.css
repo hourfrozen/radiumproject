@@ -1,8 +1,5 @@
 @import url('https://raw.githubusercontent.com/hourfrozen/radiumproject/main/midnight.css');
-#app-mount .container_ee69e0 /* channel list */,
-.privateChannels_f0963d /* dms list */,
-.members_cbd271 /* member list inner */,
-.member_a31c43 /* member list members */,
+#app-mount .info_c5a741
 --rad-version: '1.0.5';
 #app-mount {
 	.info_c5a741 .line_c5a741:last-child:after {

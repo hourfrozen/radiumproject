@@ -3,10 +3,11 @@
 .privateChannels_f0963d /* dms list */,
 .members_cbd271 /* member list inner */,
 .member_a31c43 /* member list members */,
+--rad-version: 1.0.5
 #app-mount {
 	// Version info
 	.info_c5a741 .line_c5a741:last-child:after {
-		content: 'RadialStatus ' var(--rs-version);
+		content: 'Test ' var(--rad-version);
 		display: block;
 	}
 }

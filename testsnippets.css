@@ -1,15 +1,3 @@
-.embed_d3cbe3 { position: relative; }
-.embed_d3cbe3::after {
-    content: '';
-    position: absolute;
-    top: 0px; left: -4px; bottom: 0px;
-    width: 100%;
-    border-radius: var(--roundness-m);
-    border: 4px solid transparent;
-    border-left-color: inherit;
-    filter: blur(15px);
-    z-index: -1;
-}
 .animatedContainer_fd6364 {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;

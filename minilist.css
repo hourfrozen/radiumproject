@@ -1,9 +1,12 @@
 /* minified memberlist (midnight theme version) */
-/* commit changes you piece of trash - hour */
 :root {
 	--collapsed: 220px;
 	--expanded: 240px;
 	--transition: 0.2s ease-out;
+}
+:root.reduce-motion {
+	--collapsed: --expanded;
+	--transition: none;
 }
 .membersWrap_cbd271 {
 	min-width: unset;

@@ -1,0 +1,13 @@
+.inlineCode__0cacf,
+.before_inlineCode__48f7c,
+.after_inlineCode__59586 {
+  background-color: var(--textarea-block-color);
+}
+
+.inlineCode__0cacf {
+  color: var(--textarea-block-text-color);
+}
+
+:root{
+--textarea-block-color: rgba(20,22,26,1);
+}

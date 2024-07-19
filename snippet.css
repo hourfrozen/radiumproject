@@ -1,10 +1,46 @@
-@import url('https://raw.githubusercontent.com/hourfrozen/radiumproject/main/midnight.css');
-#app-mount .info_c5a741
---rad-version: '1.0.5';
-#app-mount {
-	.info_c5a741 .line_c5a741:last-child:after {
-		content: 'RadialStatus ' var(--rs-version);
-		display: block;
-	}
+.container_b2ca13 {
+   height: 67px;
+  padding-left: 4px;
+}
 
+[class*="panels"] [class*="avatarWrapper"]:hover {
+   height: 64px;
+   border-radius: var(--roundness-l);
+}
+
+[class*="panels"] [class*="avatarWrapper"] {
+    min-width: 133px !important;
+    max-width: 133px;
+    padding-left: 8px;
+}  
+ 
+.container_b2ca13::after {
+   content: "";
+   position: absolute;
+   top: 11px;
+   left: 155px;
+   height: 48px;
+   width: 3px;
+   background-color: var(--bg-3);
+   border-radius: 4px;
+} 
+
+.container_b2ca13 > .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 {
+    position: absolute;
+    left: 170px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+button[aria-label="Disable Game Activity"] {
+  order: 1;
+}
+
+button[aria-label="Enable Game Activity"] {
+  order: 1;
+}
+
+button[aria-label="User Settings"] {
+  order: 2;
 }

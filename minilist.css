@@ -4,10 +4,6 @@
 	--expanded: 240px;
 	--transition: 0.2s ease-out;
 }
-:root.reduce-motion {
-	--collapsed: --expanded;
-	--transition: none;
-}
 .membersWrap_cbd271 {
 	min-width: unset;
 	width: var(--collapsed);

@@ -10,12 +10,7 @@
     filter: blur(15px);
     z-index: -1;
 }
-.message__80c10.mentioned__58017::before,
-.replying_d7b6ad::before {
-    width: 4px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 20px 0px var(--accent-3);
-}
-div.message__80c10.replying_d7b6ad::before {
-    box-shadow: 0px 0px 20px 0px var(--text-2);
+.animatedContainer_fd6364 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }

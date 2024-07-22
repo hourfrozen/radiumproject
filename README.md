@@ -6,7 +6,8 @@ Radium is a mix of themes and other interesting things, expect everything to bre
 ## Credits {wip}
 refact0r:
 midnight theme,
-minilist.css
+minilist.css,
+hl.css
 =================
 @denmayz (Discord)
 removebadge.css,

@@ -9,14 +9,14 @@ midnight theme,
 minilist.css,
 hl.css
 =================
-@denmayz (Discord)
+@denmayz (Discord):
 removebadge.css,
 updateduserpanel.css
 =================
-@Hassunaama {Discord}
+@Hassunaama (Discord):
 removerounding.css
 =================
-me
+me:
 badly putting this all together
 =================
 

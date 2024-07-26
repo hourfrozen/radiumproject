@@ -13,6 +13,9 @@ hl.css
 removebadge.css,
 updateduserpanel.css
 =================
+@digitalbarrito (Discord):
+fix.css
+=================
 @Hassunaama (Discord):
 removerounding.css
 =================
